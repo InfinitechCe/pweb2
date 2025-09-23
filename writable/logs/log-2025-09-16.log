@@ -1,0 +1,576 @@
+CRITICAL - 2025-09-16 01:12:43 --> ErrorException: Undefined array key "penulis"
+[Method: GET, Route: buku/1]
+in APPPATH\Views\buku\detail.php on line 12.
+ 1 APPPATH\Views\buku\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "penulis"', 'D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\detail.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(32): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 01:13:35 --> ErrorException: Undefined array key "tahun"
+[Method: GET, Route: buku/1]
+in APPPATH\Views\buku\detail.php on line 14.
+ 1 APPPATH\Views\buku\detail.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tahun"', 'D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\detail.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(32): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 01:15:16 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: buku]
+in APPPATH\Views\buku\index.php on line 26.
+ 1 APPPATH\Views\buku\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('buku/index', [], true)
+ 5 APPPATH\Controllers\Buku.php(23): view('buku/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 01:15:18 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: buku]
+in APPPATH\Views\buku\index.php on line 26.
+ 1 APPPATH\Views\buku\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('buku/index', [], true)
+ 5 APPPATH\Controllers\Buku.php(23): view('buku/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:11:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: buku/tambah]
+in APPPATH\Views\buku\detail.php on line 9.
+ 1 APPPATH\Views\buku\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\detail.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(32): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:13:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: buku/tambah]
+in APPPATH\Views\buku\detail.php on line 9.
+ 1 APPPATH\Views\buku\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\detail.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(32): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->detail('tambah')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+DEBUG - 2025-09-16 02:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-16 02:52:44 --> mysqli_sql_exception: Column 'tahun_terbit' cannot be null in D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `bu...', 0)
+#1 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\app\Controllers\Buku.php(58): CodeIgniter\BaseModel->save(Array)
+#9 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+#10 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#11 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\rewrite.php(44): require_once('D:\\Adhit\\ngulik...')
+#16 {main}
+CRITICAL - 2025-09-16 02:52:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tahun_terbit' cannot be null
+[Method: POST, Route: buku/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :tahun_terbit:, :sampul:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:52:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tahun_terbit' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (\'Eligendi consequatur\', \'Ipsa dolorum non al\', NULL, \'Dolor ut facere labo\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (\'Eligendi consequatur\', \'Ipsa dolorum non al\', NULL, \'Dolor ut facere labo\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :tahun_terbit:, :sampul:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:52:44 --> [Caused by] mysqli_sql_exception: Column 'tahun_terbit' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (\'Eligendi consequatur\', \'Ipsa dolorum non al\', NULL, \'Dolor ut facere labo\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (\'Eligendi consequatur\', \'Ipsa dolorum non al\', NULL, \'Dolor ut facere labo\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (\'Eligendi consequatur\', \'Ipsa dolorum non al\', NULL, \'Dolor ut facere labo\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :tahun_terbit:, :sampul:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+DEBUG - 2025-09-16 02:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-16 02:53:03 --> mysqli_sql_exception: Column 'tahun_terbit' cannot be null in D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `bu...', 0)
+#1 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\app\Controllers\Buku.php(58): CodeIgniter\BaseModel->save(Array)
+#9 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+#10 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#11 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\rewrite.php(44): require_once('D:\\Adhit\\ngulik...')
+#16 {main}
+CRITICAL - 2025-09-16 02:53:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tahun_terbit' cannot be null
+[Method: POST, Route: buku/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :tahun_terbit:, :sampul:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:53:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tahun_terbit' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (\'Aliqua Et velit vo\', \'Velit non quasi offi\', NULL, \'Nisi proident commo\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (\'Aliqua Et velit vo\', \'Velit non quasi offi\', NULL, \'Nisi proident commo\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :tahun_terbit:, :sampul:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:53:03 --> [Caused by] mysqli_sql_exception: Column 'tahun_terbit' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (\'Aliqua Et velit vo\', \'Velit non quasi offi\', NULL, \'Nisi proident commo\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (\'Aliqua Et velit vo\', \'Velit non quasi offi\', NULL, \'Nisi proident commo\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (\'Aliqua Et velit vo\', \'Velit non quasi offi\', NULL, \'Nisi proident commo\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :tahun_terbit:, :sampul:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+DEBUG - 2025-09-16 02:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-16 02:54:28 --> mysqli_sql_exception: Column 'tahun_terbit' cannot be null in D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `bu...', 0)
+#1 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\app\Controllers\Buku.php(58): CodeIgniter\BaseModel->save(Array)
+#9 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+#10 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#11 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\rewrite.php(44): require_once('D:\\Adhit\\ngulik...')
+#16 {main}
+CRITICAL - 2025-09-16 02:54:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tahun_terbit' cannot be null
+[Method: POST, Route: buku/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:54:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tahun_terbit' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Nisi maiores vitae c\', \'Aliquip nisi nisi et\', \'Eum cillum eos volu\', NULL, \'Non rem corrupti be\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Nisi maiores vitae c\', \'Aliquip nisi nisi et\', \'Eum cillum eos volu\', NULL, \'Non rem corrupti be\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:54:28 --> [Caused by] mysqli_sql_exception: Column 'tahun_terbit' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Nisi maiores vitae c\', \'Aliquip nisi nisi et\', \'Eum cillum eos volu\', NULL, \'Non rem corrupti be\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Nisi maiores vitae c\', \'Aliquip nisi nisi et\', \'Eum cillum eos volu\', NULL, \'Non rem corrupti be\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Nisi maiores vitae c\', \'Aliquip nisi nisi et\', \'Eum cillum eos volu\', NULL, \'Non rem corrupti be\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+DEBUG - 2025-09-16 02:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-16 02:58:09 --> mysqli_sql_exception: Column 'tahun_terbit' cannot be null in D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `bu...', 0)
+#1 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\app\Controllers\Buku.php(58): CodeIgniter\BaseModel->save(Array)
+#9 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+#10 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#11 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\rewrite.php(44): require_once('D:\\Adhit\\ngulik...')
+#16 {main}
+CRITICAL - 2025-09-16 02:58:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tahun_terbit' cannot be null
+[Method: POST, Route: buku/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:58:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tahun_terbit' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Laboris sint incidu\', \'Asperiores doloremqu\', \'Ipsum dolor qui laud\', NULL, \'Ex ullam aute dolore\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Laboris sint incidu\', \'Asperiores doloremqu\', \'Ipsum dolor qui laud\', NULL, \'Ex ullam aute dolore\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:58:09 --> [Caused by] mysqli_sql_exception: Column 'tahun_terbit' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Laboris sint incidu\', \'Asperiores doloremqu\', \'Ipsum dolor qui laud\', NULL, \'Ex ullam aute dolore\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Laboris sint incidu\', \'Asperiores doloremqu\', \'Ipsum dolor qui laud\', NULL, \'Ex ullam aute dolore\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Laboris sint incidu\', \'Asperiores doloremqu\', \'Ipsum dolor qui laud\', NULL, \'Ex ullam aute dolore\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+DEBUG - 2025-09-16 02:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-09-16 02:58:52 --> ErrorException: Undefined array key "sampul"
+[Method: GET, Route: buku/0]
+in APPPATH\Views\buku\detail.php on line 9.
+ 1 APPPATH\Views\buku\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sampul"', 'D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\detail.php', 9)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\app\\Views\\buku\\detail.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('buku/detail', [], true)
+ 5 APPPATH\Controllers\Buku.php(32): view('buku/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->detail('0')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+DEBUG - 2025-09-16 02:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 02:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-16 02:59:30 --> mysqli_sql_exception: Duplicate entry '0' for key 'buku.PRIMARY' in D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `bu...', 0)
+#1 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\app\Controllers\Buku.php(58): CodeIgniter\BaseModel->save(Array)
+#9 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+#10 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#11 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\rewrite.php(44): require_once('D:\\Adhit\\ngulik...')
+#16 {main}
+CRITICAL - 2025-09-16 02:59:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'buku.PRIMARY'
+[Method: POST, Route: buku/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:59:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'buku.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Quia tempora volupta\', \'Consectetur tenetur\', \'Ab culpa commodi quo\', NULL, \'Tempor voluptas assu\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Quia tempora volupta\', \'Consectetur tenetur\', \'Ab culpa commodi quo\', NULL, \'Tempor voluptas assu\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 02:59:30 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'buku.PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Quia tempora volupta\', \'Consectetur tenetur\', \'Ab culpa commodi quo\', NULL, \'Tempor voluptas assu\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Quia tempora volupta\', \'Consectetur tenetur\', \'Ab culpa commodi quo\', NULL, \'Tempor voluptas assu\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'Quia tempora volupta\', \'Consectetur tenetur\', \'Ab culpa commodi quo\', NULL, \'Tempor voluptas assu\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+DEBUG - 2025-09-16 03:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-09-16 03:02:09 --> mysqli_sql_exception: Column 'tahun_terbit' cannot be null in D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `bu...', 0)
+#1 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\app\Controllers\Buku.php(58): CodeIgniter\BaseModel->save(Array)
+#9 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+#10 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#11 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\Adhit\ngulikk\pweb2\Pertemuan3\CI\system\rewrite.php(44): require_once('D:\\Adhit\\ngulik...')
+#16 {main}
+CRITICAL - 2025-09-16 03:02:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'tahun_terbit' cannot be null
+[Method: POST, Route: buku/simpan]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 03:02:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'tahun_terbit' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'8988888\', \'Reprehenderit dolor\', \'Dolor ex officiis ip\', NULL, \'Officia esse ipsa i\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'8988888\', \'Reprehenderit dolor\', \'Dolor ex officiis ip\', NULL, \'Officia esse ipsa i\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+CRITICAL - 2025-09-16 03:02:09 --> [Caused by] mysqli_sql_exception: Column 'tahun_terbit' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'8988888\', \'Reprehenderit dolor\', \'Dolor ex officiis ip\', NULL, \'Officia esse ipsa i\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'8988888\', \'Reprehenderit dolor\', \'Dolor ex officiis ip\', NULL, \'Officia esse ipsa i\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (\'8988888\', \'Reprehenderit dolor\', \'Dolor ex officiis ip\', NULL, \'Officia esse ipsa i\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`judul`, `pengarang`, `penerbit`, `tahun_terbit`, `sampul`) VALUES (:judul:, :pengarang:, :penerbit:, :tahun_terbit:, :sampul:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Buku.php(58): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Buku->simpan()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\Adhit\\ngulikk\\pweb2\\Pertemuan3\\CI\\public\\index.php')
+DEBUG - 2025-09-16 03:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-09-16 03:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
