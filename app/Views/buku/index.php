@@ -26,7 +26,7 @@
           ?>
           <tr>
             <th scope="row"><?= $i++; ?></th>
-            <td><img src="/img/<?= $b['sampul']; ?>" alt="" class="sampul"></td>
+            <td><img src="/img/<?= $b['sampul']; ?>" alt="Sampul buku" width="75"></td>
             <td><?= $b['judul']; ?></td>
             <td>
               <a href="/buku/<?= $b['id_buku']; ?>" class="btn btn-success">Detail</a>
