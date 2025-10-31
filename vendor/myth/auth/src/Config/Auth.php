@@ -333,7 +333,7 @@ class Auth extends BaseConfig
         'Myth\Auth\Authentication\Passwords\CompositionValidator',
         'Myth\Auth\Authentication\Passwords\NothingPersonalValidator',
         'Myth\Auth\Authentication\Passwords\DictionaryValidator',
-        'Myth\Auth\Authentication\Passwords\PwnedValidator',
+        //'Myth\Auth\Authentication\Passwords\PwnedValidator',
     ];
 
     /**

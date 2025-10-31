@@ -28,7 +28,7 @@ class Email extends BaseConfig
     /**
      * SMTP Server Hostname
      */
-    public string $SMTPHost = 'smpt.gmail.com';
+    public string $SMTPHost = 'smtp.gmail.com';
 
     /**
      * SMTP Username
@@ -40,7 +40,7 @@ class Email extends BaseConfig
      * SMTP Password
      */
     // Input password yang sudah di generate dari gmail
-    public string $SMTPPass = 'mikl jvpe btda jkzh';
+    public string $SMTPPass = 'ohax wntg clpt kguj';
 
     /**
      * SMTP Port
